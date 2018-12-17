@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/activity_main_textview1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:text="帧动画"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/activity_main_textview2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:text="补间动画"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/activity_main_textview3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:text="属性动画"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimaryDark"/>
+
+</LinearLayout>
